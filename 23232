@@ -56,7 +56,7 @@ end
 -- ================================================
 -- Время жизни ключа (60 секунд = 1 минута)
 -- ================================================
-local LIFETIME = 360
+local LIFETIME = 18000
 local startTime = tick()
 local endTime = startTime + LIFETIME
 
